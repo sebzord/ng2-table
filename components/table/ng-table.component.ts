@@ -86,6 +86,10 @@ export class NgTableComponent {
   public get columns():Array<any> {
     return this._columns;
   }
+  
+  public clearColumns():void {
+    this._columns = [];
+  }
 
   public get config():any {
     return this._config;
